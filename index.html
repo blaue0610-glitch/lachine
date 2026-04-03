@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LACHINE株式会社</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    }
+
+    body {
+      color: #111;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    /* HERO */
+    .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(135deg, #ffffff, #eaf4ff);
+    }
+
+    .hero p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    /* GRID */
+    .grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card {
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      background: #fafafa;
+    }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 30px;
+      border-radius: 30px;
+      background: #007aff;
+      color: #fff;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 40px 20px;
+      background: #111;
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #aaa;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <h1>肌から変わる、新しい日常。</h1>
+      <p>テクノロジーで導く、次世代スキンケア</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>ABOUT</h2>
+    <p>
+      LACHINE株式会社は、美容とテクノロジーを融合した次世代スキンケア製品の開発を行う企業です。
+      SNS時代に最適化されたプロダクト設計を行い、「即効性」「使いやすさ」「継続性」を追求しています。
+    </p>
+  </section>
+
+  <!-- PRODUCT -->
+  <section>
+    <h2>PRODUCT</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>青色LED</h3>
+        <p>アクネ菌の抑制にアプローチ</p>
+      </div>
+      <div class="card">
+        <h3>赤色LED</h3>
+        <p>炎症をケアし肌を整える</p>
+      </div>
+      <div class="card">
+        <h3>CICA配合</h3>
+        <p>肌を優しく保護・回復サポート</p>
+      </div>
+      <div class="card">
+        <h3>透明設計</h3>
+        <p>貼っても目立たない自然な仕上がり</p>
+      </div>
+      <div class="card">
+        <h3>高密着</h3>
+        <p>日常生活でも剥がれにくい設計</p>
+      </div>
+      <div class="card">
+        <h3>簡単ケア</h3>
+        <p>貼るだけでスキンケア完了</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRENGTH -->
+  <section>
+    <h2>STRENGTH</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>SNSマーケティング</h3>
+        <p>インフルエンサーとの連携で拡散力を最大化</p>
+      </div>
+      <div class="card">
+        <h3>一気通貫開発</h3>
+        <p>企画から販売までスピーディに対応</p>
+      </div>
+      <div class="card">
+        <h3>トレンド反映</h3>
+        <p>市場ニーズを即商品化するスピード</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section>
+    <h2>VISION</h2>
+    <p>
+      「美容をもっとシンプルに。」  
+      「誰でも続けられるスキンケアを。」  
+      私たちは日常に寄り添うプロダクトで、誰もが無理なく美しくなれる未来を目指します。
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="cta">
+    <h2>CONTACT</h2>
+    <p>商品開発・OEM・PRのご相談はこちら</p>
+    <a href="#" class="btn">お問い合わせ</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>LACHINE株式会社</p>
+    <p>代表取締役：関口 碧斗</p>
+    <p>〒060-0006 北海道札幌市中央区北六条西18丁目11-1</p>
+    <p>
+      <a href="#">Instagram</a> |
+      <a href="#">TikTok</a>
+    </p>
+  </footer>
+
+</body>
+</html>
